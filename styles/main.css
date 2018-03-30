@@ -1,0 +1,56 @@
+body {
+
+    background: black;
+    color: yellow;
+    font-family: 'r_custom'; 
+
+}
+header {
+    border: 3px solid yellow;
+    padding: 5px;
+    
+    
+}
+header h1 {
+    padding: 5px 0px 5px 5px;
+    margin: 0;
+    display: inline;
+}
+header nav ul {
+    margin: 0;
+    display: inline;
+    
+}
+header nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px;
+}
+li a {
+    color: yellow;
+}
+.panel {
+    
+    margin: 3%;
+    border: 1px solid yellow;
+    display: inline-block;
+}
+.panel .panelTitle {
+    border: 1px solid yellow;
+    text-align: center;
+    padding: 10px 20px;
+    
+}
+.panel .panelBody {
+    margin: 8px;
+}
+footer li {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: "r_custom";
+    src: url("fonts/r_custom.woff") format("woff"),
+    url("fonts/r_custom.ttf") format('truetype');
+}
